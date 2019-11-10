@@ -39,7 +39,7 @@ html,body {
     color:gray
 }
 h3 {
-    color: blue
+    color: rgba(1, 63, 179, 0.89)
 }
 
 #text {
@@ -47,40 +47,80 @@ h3 {
     background-color: white;
     position: absolute;
     right: 0px;
-    top: 17%
+    top: 17%;
+    overflow: hidden;
+    height: 50%;
 }
 
 .singleimages {
     height: 200px;
     border-radius: 10px;
     margin: 5px;
+    position: relative;
 }
 
 #wrapper {
     display: flex;
-    flex-wrap: wrap;
-    height: 410px;
-    position: relative;
+    flex-direction: row;
+    height: 210px;
+    position: absolute;
     right: 0px;
     justify-content: flex-end;
 }
+#wrapper2 {
+    display: flex;
+    flex-direction: row;
+    height: 210px;
+    position: absolute;
+    right: 15%;
+    justify-content: flex-end;
+    bottom: 0%;
+}
+/* parent za divove za dva reda slika i za button div */
 #row1{
-    position: relative;
+    position: absolute;
     right: 34%;
     top: 17%;
-    height: 411px;
-    width: 100%;
+    height: 420px;
+    width: 110%;
     margin-left: 100px;
+    overflow: hidden;
 }
-.button{
-    border-radius: 20%;
-    width: 60px;
+
+#btnnext {
+    position: absolute;
+    top: 35%;
+    right: 0%;
+    border-radius: 10%;
+    width: 60px; /* ne znam je li bolje fixni width i height u pixelima ili u postotku width 50% i height 30% parent diva */
     height: 60px;
     background-color: white;
     color: black;
-    border: 1px solid blue;
-    margin: 5px; 
+    border-color: rgba(1, 63, 179, 0.89);
+    margin: 5px;
 }
+
+#btnback {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    border-radius: 10%;
+    width: 60px; /* ne znam je li bolje fixni width i height u pixelima ili u postotku width 50% i height 30% parent diva */
+    height: 60px;
+    background-color: white;
+    color: black;
+    border-color: rgb(197, 195, 195);
+    margin: 5px;
+}
+
 .buttons{
-    margin-left: 60px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 14%;
+    height: 50%;
+}
+
+.picture{
+    position: relative;
 }
