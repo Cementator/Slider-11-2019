@@ -8,13 +8,12 @@ $(function(){
   // Next slide
   $("#btnnext").click(function(){
    //  left: "+=50",
-     $('#img5').animate({Left:'200px'});
+     $("#wrap").animate({marginRight: "-=270px"});
   });
   
   //previous slide
-    $('.back-slide').click(function( e ){
-    e.preventDefault();
-    $('#slides').animate({scrollLeft: "-="+slideW }, 600);
-  });
-  
+  $("#btnback").click(function(){
+    //  left: "+=50",
+      $("#wrap").animate({marginRight: "+=270px"});
+   });
   });
