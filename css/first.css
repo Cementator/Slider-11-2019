@@ -2,6 +2,7 @@ html,body {
     height: 100%;
     width: 100%;
 }
+
 #container {
     display: flex;
     width: 40%;
@@ -38,6 +39,7 @@ html,body {
 #paraf {
     color:gray
 }
+
 h3 {
     color: rgba(1, 63, 179, 0.89)
 }
@@ -58,6 +60,7 @@ h3 {
     margin: 5px;
     position: relative;
 }
+
 #wrap {
     display: flex;
     flex-direction: row;
@@ -69,6 +72,7 @@ h3 {
     margin: 0px;
     padding: 0px;
 }
+
 #wrap2 {
     display: flex;
     flex-direction: row;
@@ -81,6 +85,7 @@ h3 {
     padding: 0px;
     z-index: -1;
 }
+
 #wrapper {
     height: 210px;
     width: 100%;
@@ -89,6 +94,7 @@ h3 {
     margin: 0px;
     padding: 0px;
 }
+
 #wrapper2 {
     height: 210px;
     width:100%;
@@ -120,7 +126,7 @@ h3 {
     height: 60px;
     background-color: white;
     color: black;
-    border-color: rgba(1, 63, 179, 0.89);
+    border: 2px solid blue;
     margin: 5px;
 }
 
@@ -133,7 +139,7 @@ h3 {
     height: 60px;
     background-color: white;
     color: black;
-    border-color: rgb(197, 195, 195);
+    border: 2px solid gray;
     margin: 5px;
 }
 
