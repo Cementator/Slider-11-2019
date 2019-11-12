@@ -1,0 +1,160 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    width: 40%;
+    position: relative;
+    top: 0px;
+    left: 30%;
+    height: 70%;
+}
+
+#footer {
+    background-color: grey;
+    width: 100%;
+    height: 7%;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+#header {
+    background-color: grey;
+    height: 7%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+#paraf {
+    color:gray
+}
+
+h3 {
+    color: rgba(1, 63, 179, 0.89)
+}
+
+#text {
+    width: 33%;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 17%;
+    overflow: hidden;
+    height: 50%;
+}
+
+.singleimages {
+    height: 200px;
+    border-radius: 10px;
+    margin: 5px;
+    position: relative;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: row;
+    height: 210px;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrap2 {
+    display: flex;
+    flex-direction: row;
+    height: 210px;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+}
+
+#wrapper {
+    height: 210px;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper2 {
+    height: 210px;
+    width:100%;
+    position: absolute;
+    right: 15%;
+    bottom: 0%;
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+    overflow: hidden;
+}
+/* parent za divove za dva reda slika i za button div */
+#row1{
+    position: absolute;
+    right: 34%;
+    top: 17%;
+    height: 420px;
+    width: 110%;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+#btnnext {
+    position: absolute;
+    top: 35%;
+    right: 0%;
+    border-radius: 10%;
+    width: 60px; /* ne znam je li bolje fixni width i height u pixelima ili u postotku width 50% i height 30% parent diva */
+    height: 60px;
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    margin: 5px;
+}
+
+#btnback {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    border-radius: 10%;
+    width: 60px; /* ne znam je li bolje fixni width i height u pixelima ili u postotku width 50% i height 30% parent diva */
+    height: 60px;
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+    margin: 5px;
+}
+
+.buttons{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 14%;
+    height: 50%;
+    overflow: hidden;
+    margin: 2px;
+    z-index: 10;
+    background-color: white;
+}
+
+.picture{
+    position: relative;
+}
