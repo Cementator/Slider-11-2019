@@ -1,6 +1,6 @@
 $(function(){
 
-  var pos1 = 0; // brojac pozicije u prvome redu
+  let pos1 = 0; // brojac pozicije u prvome redu
   var pos11 = 4; // brojac za back u prvome redu
   var pos2 = 0; // brojac pozicije u drugome redu
   var pos22 = 3; // brojac za back u drugome redu

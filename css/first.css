@@ -106,8 +106,8 @@ h3 {
     z-index: -1;
     overflow: hidden;
 }
-/* parent za divove za dva reda slika i za button div */
-#row1{
+/* parent for wrappers and buttons div */
+#row1 {
     position: absolute;
     right: 34%;
     top: 17%;
@@ -122,7 +122,7 @@ h3 {
     top: 35%;
     right: 0%;
     border-radius: 10%;
-    width: 60px; /* ne znam je li bolje fixni width i height u pixelima ili u postotku width 50% i height 30% parent diva */
+    width: 60px; /* if is need to go by percentage: width 50% & height 30% of the parent div */
     height: 60px;
     background-color: white;
     color: black;
@@ -135,7 +135,7 @@ h3 {
     top: 0%;
     right: 0%;
     border-radius: 10%;
-    width: 60px; /* ne znam je li bolje fixni width i height u pixelima ili u postotku width 50% i height 30% parent diva */
+    width: 60px; /* if is need to go by percentage: width 50% & height 30% of the parent div */
     height: 60px;
     background-color: white;
     color: black;
@@ -143,7 +143,7 @@ h3 {
     margin: 5px;
 }
 
-.buttons{
+.buttons {
     position: absolute;
     right: 0%;
     bottom: 0%;
@@ -155,6 +155,6 @@ h3 {
     background-color: white;
 }
 
-.picture{
+.picture {
     position: relative;
 }
