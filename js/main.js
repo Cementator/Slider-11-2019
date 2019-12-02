@@ -1,7 +1,7 @@
 $(function(){
 
   let pos1 = 0; // brojac pozicije u prvome redu
-  var pos11 = 4; // brojac za back u prvome redu
+  let pos11 = 4; // brojac za back u prvome redu
   var pos2 = 0; // brojac pozicije u drugome redu
   var pos22 = 3; // brojac za back u drugome redu
   var picture1W = -$("#img"+ pos1).width(); // sirina diva koji treba biti pomaknut u prvome redu
@@ -11,7 +11,7 @@ $(function(){
   var firstrowwidth = $("#img0").width() + $("#img1").width() + $("#img2").width() + $("#img3").width() + $("#img4").width();
   var secondrowwidth = $("#im0").width() + $("#im1").width() + $("#im2").width() + $("#im3").width();
 
-  $("#btnnext").click(function(){
+  $("#btnnext").click(()=>{
     $("div#wrap > div").animate({right: "+=" + picture1W + "px"}, 500); //prvi red
     $("#img" + pos1).animate({right: "+=" + firstrowwidth +"px"}, 500); //prvi red
     $("div#wrap2 > div").animate({right: "+=" + picture2W + "px"}, 500); //drugi red
