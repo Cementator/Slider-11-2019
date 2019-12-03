@@ -1,8 +1,25 @@
 var path = require('path');
 module.exports = {
-    entry:'./src/js/main.js',
+    entry:'./js/main.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js'
+        path: path.resolve(__dirname, 'bundle'),
+        filename: 'bundle.js',
+        publicPath: '/bundle'
+    },
+    module: {
+        rules:[
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use:[
+                    {
+                        loader: 'babel-loader',
+                        options: {
+                            presets: ['@babel/preset-env']
+                        }
+                    }
+                ]
+            }
+        ]
     }
 };
