@@ -1,3 +1,5 @@
+import '..css/first.scss';
+
 $(function(){
 
   let pos1 = 0; // brojac pozicije u prvome redu

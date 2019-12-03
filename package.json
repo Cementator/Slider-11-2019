@@ -4,7 +4,8 @@
   "description": "two row slider",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,18 @@
   },
   "homepage": "https://github.com/Cementator/Slider-11-2019#readme",
   "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.2.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "fibers": "^4.0.2",
+    "node-sass": "^4.13.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
     "webpack": "^4.41.2",
     "webpack-dev-server": "^3.9.0"
   }
