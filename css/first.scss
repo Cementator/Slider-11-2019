@@ -1,3 +1,4 @@
+$titlecolor: rgba(1, 63, 179, 0.89);
 html,body {
     height: 100%;
     width: 100%;
@@ -41,7 +42,7 @@ html,body {
 }
 
 h3 {
-    color: rgba(1, 63, 179, 0.89);
+    color: $titlecolor;
 }
 
 #text {

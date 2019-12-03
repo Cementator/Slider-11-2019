@@ -1,4 +1,4 @@
-
+import '../css/first.scss';
 $(function(){
 
   let pos1 = 0; // counter for forward in the first row
