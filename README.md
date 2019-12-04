@@ -2,7 +2,7 @@
 
 A Jquery two row slider 11/2019.
 
-With scss nad babel.
+With scss and babel.
 
 To start the project type in the terminal: npm run build
 
